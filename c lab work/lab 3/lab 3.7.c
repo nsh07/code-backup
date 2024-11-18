@@ -27,7 +27,7 @@ int main()
                 }
             }
 
-            else
+            else if(a[i][j]==1}
             {
                 k = k + 1;
             }
@@ -44,7 +44,7 @@ int main()
     {
         printf("yes it is a identty matrix\n");
     }
-    else
+    else 
     {
         printf("it is not a identity martix");
     }
