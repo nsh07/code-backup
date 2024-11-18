@@ -17,7 +17,12 @@ int main() {
                 }
             }
 
+<<<<<<< HEAD
             else if (a[i][j] == 1) {
+=======
+            else if(a[i][j]==1}
+            {
+>>>>>>> a0a8dcb57309ebd9e04a349414b31afe8bf9c36a
                 k = k + 1;
             }
         }
@@ -30,7 +35,13 @@ int main() {
 
     if (c == m && k == 3) {
         printf("yes it is a identty matrix\n");
+<<<<<<< HEAD
     } else {
+=======
+    }
+    else 
+    {
+>>>>>>> a0a8dcb57309ebd9e04a349414b31afe8bf9c36a
         printf("it is not a identity martix");
     }
 
