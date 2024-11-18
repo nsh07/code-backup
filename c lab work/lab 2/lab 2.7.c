@@ -1,21 +1,17 @@
 #include <stdio.h>
-int main()
-{
-    int a = 4;
-    int b = 6;
+int main() {
+    int a = 12;
+    int b = 13;
     int m, g;
-    int k = 1;//lowest wale ke equal kar do
+    int k = 1;  // lowest wale ke equal kar do
 
-    while (m != 1)
-    {
-        if (a == 0 || b == 0)
-        {
+    while (m != 1) {
+        if (a == 0 || b == 0) {
             printf("lcm and hcf does not exist");
             break;
         }
 
-        else if (k % a == 0 && k % b == 0)
-        {
+        else if (k % a == 0 && k % b == 0) {
             m++;
             printf("LCM = %d\n", k);
             int hcf = (a * b) / (k);
