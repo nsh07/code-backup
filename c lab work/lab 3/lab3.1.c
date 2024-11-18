@@ -9,12 +9,11 @@ int main() {
         int l = a[i];
         if (k1 < l) {
             k1 = l;
-        }
-        if (l < k2) {
+        } else if (l < k2) {
             k2 = l;
         }
     }
-    printf("the largest value is %d", k1);
+    printf("the largest value is %d\n", k1);
     printf("the smallest value is %d", k2);
 
     return 0;
