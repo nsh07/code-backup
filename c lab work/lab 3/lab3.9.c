@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
-{
-
+int main() {
     int m = 0;
-    char k[] = {"abcde"};
+    char k[] = "abcde";
 
     // m = strlen(k);
 
