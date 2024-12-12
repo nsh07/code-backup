@@ -1,10 +1,16 @@
-// Online C compiler to run C program online
+/*#include <stdio.h>
+int main() {
+    int a = 15;
+    printf("%d%d%d", a--, a, --a);
+    return 0;
+}*/
 #include <stdio.h>
-#include <string.h>
-int a = 500;
 
 int main() {
-    int a = 10;
-    printf("%d", a);
+    // Write C code here
+    char s[10];
+    printf("enter string");
+    scanf("%s", &s);
+
     return 0;
 }
