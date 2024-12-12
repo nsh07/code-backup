@@ -39,10 +39,10 @@ int main()
     int *b = a;
     int min;
     int j;
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < (n-1); i++)
     {
         min = *(b + i);
-        for (j = i + 1; j < 5; j++)
+        for (j = i + 1; j < n; j++)
         {
             // if (*(b + j) > min)//for desending
             if (*(b + j) < min) // for desending
