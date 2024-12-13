@@ -1,3 +1,4 @@
+// ------Dynamic Initialization of Objects Using Constructors-----
 #include <iostream>
 using namespace std;
 class bankdeposit {
@@ -7,11 +8,21 @@ class bankdeposit {
     float returnvalue;
 
    public:
-    bankdeposit();
+    // default constuctor must hai agar constructor banana hai to
+
+    bankdeposit() {}  // declartion + defination
+    // bankdeposit(); //declare of a default construcor
     bankdeposit(int p, int y, float r);
     bankdeposit(int p, int y, int r);
     void display();
 };
+
+// bankdeposit::bankdeposit()
+/*{ // -----defination of a d default constructor-----
+ principal = 0;
+    year = 0;
+    rate = 0;
+}*/
 bankdeposit::bankdeposit(int p, int y, float r) {
     principal = p;
     year = y;
@@ -43,7 +54,7 @@ int main() {
     int p, y, R;
     float r;
     cin >> p >> y >> r;
-    //  bankdeposit bd1 = bankdeposit(p, y, r);
+    // bankdeposit bd1 = bankdeposit(p, y, r);
     bankdeposit bd1(p, y, r);
     bd1.display();
 
