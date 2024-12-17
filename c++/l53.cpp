@@ -5,8 +5,8 @@ class A {
 
    public:
     A& setdata(int a) {
-        // a = a;//local variable ko jyada priority milega and class ka a
-        // garbage value se inialize ho jayega.
+        // a = a;    /*local variable ko jyada priority milega and class ka a
+        // garbage value se inialize ho jayega.*/
         this->a = a;
         return *this;
     }
