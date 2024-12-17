@@ -9,7 +9,7 @@ int main() {
 
     int* arr = new int[3]; /* new ,dymacilly 3 continous block allocate kar do
                             jo int store kar sake ,pahle wale block ka address
-                            de dega arr ko. */
+                            de do arr ko. */
     // all syntax are right of array
     arr[0] = 15;
     *(arr + 1) = 20;

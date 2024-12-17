@@ -18,12 +18,14 @@ class CWH {
                 "always give priority to function of "
                 "object class if that function is not found in object class "
                 "then the functon "
-                "of base class will be invoked automatically."
+                "of base class will be invoked automatically like this "
+                "display() functions."
              << endl;
     }
     /* void display() {
          cout << "Without virtual keyword base class'dislay function called
-     beacuse of it is decided by " "type of pointer not object"
+     beacuse of it is decided by " "type of pointer (ki wo pointer kis class
+     data_type (like CWH*ptr) ka hai) not object"
               << endl;
      }*/
 };
