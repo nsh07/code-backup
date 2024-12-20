@@ -1,0 +1,4 @@
+this is file
+contains the information
+about file i/o
+in c++
