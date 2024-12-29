@@ -1,9 +1,15 @@
-p:first-child{
+/* div >p{} , it specifity is same as p */
+
+/* div p:first-child { */
+/* div>p:first-child{  */
+p:first-child {
     color: red;
     background-color: rgb(255, 255, 0);
+
 }
 
-p{
+
+p {
     color: white;
     background-color: rgb(60, 0, 255);
 }
