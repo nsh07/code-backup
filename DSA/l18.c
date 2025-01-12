@@ -55,10 +55,21 @@ struct node *deletelast(struct node *head) {
     return head;
 }
 // Deleting the element of given value from the linked list
-struct node *deleteindex(struct node *head, int number) {
+struct node *deletenum(struct node *head, int number) {
+    struct node *p = head;
+    struct node *q = head->next;
 
+    while (q->data != number && q->next != NULL) {
+        p = p->next;
+        q = q->next;
+    }
 
+    if (q->data == number) {
+        p->next = q->next;
+        free(q);
+    }
 
+    return head;
 }
 
 int main() {
@@ -91,7 +102,7 @@ int main() {
     // head = deletefirst(head);
     // head = deleteindex(head, 1);
     // head = deletelast(head);
-    head = deletenum(head);
+    head = deletenum(head, 77);
     printf("\nAfter Deletion\n\n");
 
     linkedlisttransversal(head);
