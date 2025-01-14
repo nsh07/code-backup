@@ -1,6 +1,9 @@
 {
     "files.associations": {
         "L20.C": "cpp",
-        "L24.C": "cpp"
+        "L24.C": "cpp",
+        "stdio.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c"
     }
 }
