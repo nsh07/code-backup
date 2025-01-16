@@ -11,7 +11,7 @@ int main() {
             }
         }
     }
-    printf("the sum of left dioagonal elements is %d\n", c);
+    printf("The sum of left diagonal elements is %d\n", c);
 
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -20,7 +20,7 @@ int main() {
             }
         }
     }
-    printf("the sum of right dioagonal elements is  %d\n", d);
+    printf("The sum of right diagonal elements is  %d\n", d);
 
     return 0;
 }

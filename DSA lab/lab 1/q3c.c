@@ -18,11 +18,11 @@ int main() {
     }
 
     if (sum == c) {
-        printf("the matrix is upper triangular\n");
+        printf("The matrix is upper triangular\n");
     }
 
     else {
-        printf("the matrix is not upper triangular\n");
+        printf("The matrix is not upper triangular\n");
     }
     return 0;
 }

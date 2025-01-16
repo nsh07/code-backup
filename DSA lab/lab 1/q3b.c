@@ -29,7 +29,7 @@ int main() {
     }
 
     if (c == m && k == 3) {
-        printf("yes it is a identty matrix\n");
+        printf("Yes, it is a identty matrix\n");
     } else {
         printf("it is not a identity martix");
     }
