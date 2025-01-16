@@ -69,7 +69,7 @@ int parentthesisMatch(char* exp) {
             popped_element = pop(sp);
 
             if (!Match(popped_element, exp[i])) {
-                return 0;
+                return 0;   
             }
         }
     }

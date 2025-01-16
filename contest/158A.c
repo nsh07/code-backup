@@ -17,12 +17,8 @@ int main() {
             count++;
         }
     }
-    if (count == 0) {
-        printf("0");
 
-    } else {
-        printf("%d", count);
-    }
+    printf("%d", count);
 
     return 0;
 }

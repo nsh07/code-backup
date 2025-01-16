@@ -4,6 +4,8 @@
         "L24.C": "cpp",
         "stdio.h": "c",
         "string.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "algorithm": "c",
+        "format": "c"
     }
 }
