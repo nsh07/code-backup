@@ -1,5 +1,3 @@
-// it contains the code of q2.a , q2.b , q2.g
-
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
